@@ -16,7 +16,7 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: superset
+      chart: incubator/superset
       version: "1.2.0"
       sourceRef:
         kind: HelmRepository
