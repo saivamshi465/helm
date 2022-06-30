@@ -5,6 +5,5 @@ metadata:
   name: podinfo
   namespace: default
 spec:
-  type: https
   interval: 1m0s
   url: https://charts.cloudposse.com/incubator/superset
