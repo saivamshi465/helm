@@ -2,11 +2,9 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: bitnami
-  namespace: flux-system
+  name: podinfo
+  namespace: default
 spec:
-  interval: 5m
-  chart:
-    spec:
-      interval: 1m
-      url: https://charts.bitnami.com/bitnami
+  type: oci
+  interval: 5m0s
+  url: oci://ghcr.io/stefanprodan/charts
