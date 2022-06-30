@@ -5,6 +5,6 @@ metadata:
   name: podinfo
   namespace: default
 spec:
-  type: oci
-  interval: 5m0s
-  url: oci://ghcr.io/stefanprodan/charts
+  type: https
+  interval: 1m0s
+  url: https://charts.cloudposse.com/incubator/superset
